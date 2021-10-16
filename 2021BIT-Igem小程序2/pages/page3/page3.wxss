@@ -1,0 +1,28 @@
+/* pages/page3/page3.wxss */
+.tip1{
+  text-align: center;
+  margin-top: 200rpx;
+  font-size: large
+}
+.tip2{
+  text-align: center;
+  margin-top: 20rpx;
+  font-size: large
+}
+.button{
+  margin-top: 200rpx;
+  width: 60%;
+  font-size: large
+}
+
+.img{
+  margin-top: 200rpx;
+  margin-left: 250rpx;
+  font-size: large
+}
+
+.img2{
+  margin-top: 200rpx;
+  margin-left: 30rpx;
+  font-size: large
+}

@@ -1,0 +1,36 @@
+/* pages/bluetoothServer/bluetoothServer.wxss */
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* .selected {
+  margin-top: 50rpx;
+  font-size: 30rpx;
+} */
+
+view {
+  display: flex;
+  margin-top: 100rpx;
+}
+
+.frontButton {
+  margin-top: 400rpx;
+  margin-left: 320rpx;
+}
+
+.backButton {
+  margin-top: 100rpx;
+  margin-left: 320rpx;
+}
+
+
+
+

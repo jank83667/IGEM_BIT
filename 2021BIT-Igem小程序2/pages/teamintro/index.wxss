@@ -1,0 +1,54 @@
+view{
+  /*使用主题颜色*/
+  color:var(--themeColor);
+}
+image{
+  width:100%;
+  height:100%;
+}
+swiper{
+  height:700rpx;
+}
+.contentyiye{
+  text-align:justify;
+  color:black;
+  line-height: 1.5em;
+  font-size:1.3em;
+  font-weight:1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin:10% 10%;
+}
+.contentbit{
+  text-align:justify;
+  color:black;
+  line-height: 1.5em;
+  font-size:1.3em;
+  font-weight:1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin:10% 10%;
+}
+.pic {
+  text-align: center;
+  /* overflow: hidden; */
+  width:100%;
+  height: 384rpx;
+  border-radius: 2%;
+}
+.title{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:1.5em;
+  font-family:宋体;
+  font-weight:900;
+  line-height: 2em;
+}
+.tpjs{
+  text-align:justify;
+  color:black;
+  line-height: 1em;
+  font-size:0.8em;
+  font-weight:1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin:10% 10%;
+}

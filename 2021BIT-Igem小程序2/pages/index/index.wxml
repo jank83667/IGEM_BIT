@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="logo">
+    <image class="info-avatar" src="{{logo}}" mode="aspectFit"></image>
+  </view>
+  <view class="motto">
+    <text>{{motto}}</text>
+  </view>
+  <button bindtap="takePhoto" type="primary" class='startButton'>Let's begin</button>
+</view>
+

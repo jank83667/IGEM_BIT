@@ -1,0 +1,78 @@
+
+ 
+<view class="igem_index">
+  <!-- 队伍轮播图 开始 -->
+ <swiper autoplay
+ interval="2000"
+ indicator-dots
+ circular
+ >
+  <swiper-item wx:for="{{banners}}">
+  <image src="{{item}}"></image>
+  </swiper-item>
+  </swiper>
+  <!-- 轮播图 结束 -->
+</view>
+
+<!-- 选项卡 -->
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange" >
+<!-- bit队伍显示内容 -->
+  <block wx:if="{{tabs[0].isActive}}">
+    <scroll-view class="left_menu">
+      <view class="contentbit">
+      <text class="title"decode="{{true}}">Summary\n</text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/09/9dd31cc59a64122a.png"></image>
+      <text decode="{{true}}" class="tpjs">
+      【2019 iGEM  Group photo of some team members and instructors present at the Haines Convention Center in Boston】\n\n</text>
+      <text decode="{{true}}">&emsp;&emsp;BIT team is an iGEM team composed of all undergraduate students established by the school of life, Beijing Institute of Technology. Relying on the Key Laboratory of biological separation and analysis of Beijing Institute of Technology, from the diagnosis of breast cancer to the detection of COVID-19, by this year, we screened early detection of colorectal cancer, which has become a major killer of human health. The team has launched a series of projects on disease diagnosis, disease detection and screening.\n</text>
+      
+      <text class="title"decode="{{true}}">Instructor Team\n</text>
+      <text decode="{{true}}">&emsp;&emsp;The instructor of BIT team comes from the school of life, Beijing Institute of Technology. They all have in-depth research in the hardware field of biomedical engineering. Under the guidance of the instructors, the team has developed into an undergraduate iGEM team characterized by hardware and the cross integration of medical and engineering.\n  </text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/09/68abb689342cab63.png"></image>
+      <text decode="{{true}}" class="tpjs">
+      【In 2021, BIT team and BIT_China team carries out school exchange activities】\n\n</text>
+      <text class="title"decode="{{true}}">Products\n</text>
+      <text decode="{{true}}">&emsp;&emsp;The main products of the team are hardware packaged medical detection kits, which integrate microfluidic chip, an important biological hardware component, to greatly reduce the size of the kit and ensure the detection function and accuracy of the kit.\n</text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/09/c4a3f37805ea6fed.png"></image>
+      <text decode="{{true}}" class="tpjs">
+      【The biological group of BIT team conducted experiments in the biological separation and Analysis Laboratory of School of life, Beijing Institute of Technology】\n\n</text>
+      <text class="title"decode="{{true}}">Members\n</text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/09/864243ff508fb648.png"></image>
+      <text decode="{{true}}" class="tpjs">
+      【In 2021, BIT team was invited to visit Lanjing biological laboratory】\n\n</text>
+      
+      <text decode="{{true}}">&emsp;&emsp;The members of this team come from various colleges of the University. They have different majors and specialties, but iGEM brings them together because of their common love for synthetic biology. With the joint efforts of the team, the team members gave full play to their expertise and brainstormed in biological experiment, hardware design, art drawing, web design and other aspects to challenge better awards.\n</text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/09/92df7f5c7c17eb8f.png"></image>
+      <text decode="{{true}}" class="tpjs">
+      【Communication between BIT team and iGEM team of Lanzhou University in Beijing Institute of Technology in 2021】\n\n</text>
+      <text class="title"decode="{{true}}">Achievements\n</text>
+      <text decode="{{true}}">&emsp;&emsp;Since its establishment, the BIT team has won five gold awards, three silver awards and one nomination for a single award. In the future journey, we will strive for better results with better design and harder efforts.\n</text>
+      <image  style=" width:80%;  height: 300rpx;  border-radius: 2%;" src="https://s3.bmp.ovh/imgs/2021/09/998505c524dd65cf.png"></image>
+      <image style="margin-left:130rpx;margin-top:-50rpx;width:80%;  height: 300rpx; border-radius: 2%;"src="https://s3.bmp.ovh/imgs/2021/09/efbc42c3f91a2298.png" ></image>
+      <text decode="{{true}}" class="tpjs">
+      【Our team has won several gold medals in the iGEM competition】\n\n</text>
+</view>
+    </scroll-view>
+  </block>
+  
+<!-- YiYe队伍显示内容 -->
+  <block wx:if="{{tabs[1].isActive}}">
+    <scroll-view class="left_menu">
+    <view class="contentyiye">
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/09/ebf2e7688c2b3415.png"mode="aspectFit"></image>
+      <text decode="{{true}}" class="tpjs">
+      【Having our public campaign in Wuhan’s community & on Han Street】\n\n</text>
+      <text decode="{{true}}">&ensp;&ensp;&ensp;YiYe-China is a team composed of 10 high school students from different places, such as Wuhan, Shandong, Guangzhou, the US., and Canada, 2 advisors, and 1 instructor. Though unknown to each other, we gathered this summer in Wuhan and created this team out of our great interest in biology.  This year, our project is about the early detection of colorectal cancer through a non-invasive method. We strive to minimize the discomfort and the side effects people feel during and after the testing.\n</text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/09/494c02f5ee263947.png"></image>
+      <text decode="{{true}}" class="tpjs">
+      【Virtual Interview with Dr. Lin Sheng on Aug.6th】\n\n</text>
+      <text decode="{{true}}">&ensp;&ensp;&ensp;Our team is divided into two parts: the dry team and the wet team. In terms of the dry team, teammates are responsible for work outside the laboratory, such as public campaigns,  workshop organizations, collaboration, financial support, logo design, etc. On the other hand, the wet team is more experimental, doing labs, analyzing data, creating models and wiki websites ,etc. Students are allowed to choose openly which team they are interested in and play to their strengths. \n  </text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/09/18a0959df655f417.png"></image>
+      <text decode="{{true}}" class="tpjs">
+      【YiYe visited Kindstar Global Company in Wuhan on July 17th】\n\n</text>
+      <text decode="{{true}}">&ensp;&ensp;&ensp;In fact, it is YiYe’s first time participating in IGEM; however, our teammates’ resolution and self-confidence motivate us to face challenges and move forward. As a new team, we have faith that everyone can shine his/her way and contribute all into this competition! Let's go, YiYe!\n</text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/09/5b19a628ef5d8c81.png"></image>
+</view>
+    </scroll-view>
+  </block>
+</Tabs>

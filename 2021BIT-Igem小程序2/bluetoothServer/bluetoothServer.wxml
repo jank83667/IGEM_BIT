@@ -1,0 +1,21 @@
+<!--pages/bluetoothServer/bluetoothServer.wxml-->
+<!--https://www.jianshu.com/p/b61191618ace-->
+<radio-group class="group" bindchange="radioChange">
+  <block wx:for="{{items}}" wx:item="item">
+    <view class="item">
+      <radio value="{{item.value}}" checked="" color="" disabled="" />{{item.name}}
+    </view>
+  </block>
+</radio-group>
+
+
+<button type="primary" bindtap="" size="mini" class="frontButton">前进</button>
+<view>
+  <button type="primary" bindtap="" size="mini" class="leftButton">向左</button>
+  <button type="primary" bindtap="" size="mini" class="rightButton">向右</button>
+</view>
+<button type="primary" bindtap="" size="mini" class="backButton">后退</button>
+
+
+
+

@@ -1,0 +1,54 @@
+{
+  "pages": [
+    
+
+    "pages/index/index",
+    "pages/teamintro/index",
+    "pages/progintro/index",
+    "pages/result/index",
+    "pages/page3/page3",
+    "pages/page4/page4",
+    "pages/page2/page2",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFF",
+    "navigationBarTitleText": "2021-IGEM-BIT",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "FF0000",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "芯片调控",
+        "iconPath": "/icons/test.png",
+        "selectedIconPath": "/icons/test-o.png"
+      },
+      {
+        "pagePath": "pages/result/index",
+        "text": "检测结果",
+        "iconPath": "/icons/result.png",
+        "selectedIconPath": "/icons/result-o.png"
+      },
+      {
+        "pagePath": "pages/teamintro/index",
+        "text": "队伍介绍",
+        "iconPath": "/icons/team.png",
+        "selectedIconPath": "/icons/team-o.png"
+      },
+      {
+        "pagePath": "pages/progintro/index",
+        "text": "项目介绍",
+        "iconPath": "/icons/project.png",
+        "selectedIconPath": "/icons/project-o.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

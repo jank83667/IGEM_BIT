@@ -1,0 +1,10 @@
+<!--pages/API/SinX/index.wxml-->
+<view class="box">
+  <button bindtap="start_draw" class='button'  type="primary">start LAMP</button>
+  <view>
+    <canvas 
+    canvas-id="myCanvas" 
+    style="width: 750rpx; height: 500rpx;"
+    ></canvas>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+<!-- 选项卡 -->
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+<!-- bit队伍显示内容 -->
+  <block wx:if="{{tabs[0].isActive}}">
+    <scroll-view class="left_menu">
+      <view class="contentbit">
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/10/6c348712db6f55ce.png"></image>
+      <text class="title"decode="{{true}}">Project Goals\n</text>
+      <text decode="{{true}}">&emsp;&emsp;Early screening of colorectal cancer(CRC) based on CRISPR / Cas12-coupled SlipChip for detection of miRNA\n</text>
+      <text class="title"decode="{{true}}">Brief Introduction\n</text>
+      <text decode="{{true}}">&emsp;&emsp;Early screening and treatment of colorectal cancer(CRC) has been proved to be conducive to reducing the mortality rate of CRC. Currently, most diagnostic methods do not meet the requirements of rapid, sensitive and specific screening of CRC. Based on the selection of miRNA as our biomarker for its high sensitivity and specificity，we developed an ultrasensitive approach for miRNA detection based on a combination of Loop-mediated isothermal amplification(LAMP), CRISPR-Cas12a trans-cleavage and SlipChip. We also designed temperature-control and fluorescence detection modules to erect an interactive IVD system for POCT detection. Our system has been tested to be simple to operate, for completing the process within 1h，and its sensitivity reaches to fM level. \n  </text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/10/59e666eb150652e3.png"></image>
+      <text decode="{{true}}">&emsp;&emsp;Furthermore, our system has the capacity to detect different miRNAs, giving the potential to build standardized cancer detection platforms. \n</text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/10/b32b8c89085be54b.png"></image>
+</view>
+    </scroll-view>
+  </block>
+<!-- YiYe队伍显示内容 -->
+  <block wx:if="{{tabs[1].isActive}}">
+    <scroll-view class="left_menu">  
+      <view class="contentyiye">
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/10/618e22c04df35cfe.png"mode="aspectFit"></image>
+      <text decode="{{true}}">&ensp;&ensp;&ensp;Our aimed project is the non-invasive detection of colorectal cancer (CRC). Currently, irregular eating and resting habits cause CRC, one of the most common global cancers which has a soaring death rate. Indeed, CRC is the second leading factor of cancer death in the United States According to ASCO (American Society Of Clinical Oncology), it is estimated that 149,500 adults in the United States will be diagnosed with colorectal cancer, and 52,980 deaths (28,520 men and 24,460 women) will be attributed to colorectal cancer in 2021, which makes the death rate to almost 35%.(1) Even worse, there is a clear tendency for the young to be diagnosed with CRC. Based on the statistics, incidence rose by 2% each year in adults under age 50 and 1% in adults age 50 to 64 from 2012 to 2016, and the trend seems to be increasing by year.(2)\n</text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/10/ddc0ce467ece1af0.png"></image>
+      <text decode="{{true}}">&ensp;&ensp;&ensp;Our team is divided into two parts: the dry team and the wet team. In terms of the dry team, teammates are responsible for work outside the laboratory, such as public campaigns,  workshop organizations, collaboration, financial support, logo design, etc. On the other hand, the wet team is more experimental, doing labs, analyzing data, creating models and wiki websites ,etc. Students are allowed to choose openly which team they are interested in and play to their strengths. \n  </text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/10/491e418b85e9fd86.png"></image>
+      <text decode="{{true}}">&ensp;&ensp;&ensp;We hope to detect cancer polyps through DNA methylation to minimize patient’s discomfort as well as the inconveniences of some testing. Previously, reporters identified that tissue factor pathway inhibitor 2 (TFPI2) was an essential DNA for CRC detection. (3) People with CRC polyps have a distinct degree of TFPI-2 than healthy people. As the cancer polyps could excrete along with feces from the surface of our intestines, we aim at probing the role and efficiency of the methylation status of TFPI-2. Then by doing DNA bisulfite conversion and PCR amplification of the methylated DNA, we can compare them with a standard DNA sample to see if it is positive or negative. In addition, we aim to make the methylated DNA glow by binding a Red Fluorescent Protein, mCherry, near the end of a toehold switch so that the detectors could easily recognize the potential cancer cells through naked eyes.\n\n\n</text>
+      <image class="pic" src="https://s3.bmp.ovh/imgs/2021/10/e3ac7306830661e5.png"></image>
+      <text decode="{{true}}"class="ckwx">Sources:
+      (1)“Colorectal Cancer: Statistics.” Cancer.Net, Jan. 2021,www.cancer.net/cancer-types/colorectal-cancer/statistics.
+      (2) “Cancer Map Stories.” Colorectal Cancer in Young Adults, gis.cancer.gov/mapstory/CRC/index.html.
+      (3) Zhang, Weisong, et al. “SDC2 And TFPI2 Methylation in Stool Samples as an Integrated Biomarker for Early Detection of Colorectal Cancer.” Cancer Management and Research, Dove, 30 Apr. 2021,www.ncbi.nlm.nih.gov/pmc/articles/PMC8096344/\n</text>
+</view>
+    </scroll-view>
+  </block>
+</Tabs>
